@@ -82,6 +82,14 @@ publishing {
       artifact javadocJar
     }
   }
+
+    repositories {
+      maven {
+        name = 'DevixDav'
+        url = "file://${System.properties['user.home']}/devix/dav/.m2/repository"
+      }
+    }
+
 }
 
 artifactory {
