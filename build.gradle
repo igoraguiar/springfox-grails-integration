@@ -6,9 +6,10 @@ plugins {
 allprojects {
 
   group = 'io.springfox.grails'
-  version = '1.0.1-SNAPSHOT'
+  version = '1.0.1-devix'
 
   repositories {
+    mavenLocal()
     jcenter()
 //    maven { url 'http://oss.jfrog.org/artifactory/oss-snapshot-local/' }
     mavenCentral()
